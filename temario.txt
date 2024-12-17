@@ -1,0 +1,108 @@
+------------------------------
+0 INTRODUCCIÓN ¿QUÉ ES EL DOM?
+------------------------------
+    - Que es el DOM
+
+-----------------------------
+1 BUSCAR Y GUARDAR ELEMENTOS EN EL DOM
+-----------------------------
+    - getElementBy()
+    - getElementsByClassName()
+    - getElementsByName()
+    - getElementsByTagName()
+    - querySelector("")
+    - querySelectorAll("")
+    - Diferencia entre NodeList y HTMLCollection
+
+-------------------
+2 RECORRER EL DOM
+-----------------
+    - children
+    - parentElement
+    - firstElementChild
+    - lastElementChild
+    - previousElementSibling
+    - nextElementSibling
+    - matches()
+    - closest()
+    - RECORRIENDO EL DOM A TRAVES DE NODOS
+        - childNodes
+        - parentNode
+        - firstChild
+        - lastChild
+        - previousSibling
+        - nextSibling
+
+-----------------------------
+3 MODIFICAR CONTENIDO DEL DOM
+-----------------------------
+    - nextSibling
+    - textContent
+    - innerText
+    - outerText
+    - nodeType
+    - innerHTML
+    - outerHTML
+    - objeto id
+    - objeto style
+    - className
+    - hasAttributes()
+    - getAttributeNames()
+    - setAtribute()
+    - removeAttribute()
+    - toggleAttribute()
+
+-------------------
+4 ESTILOS EN EL DOM
+-------------------
+    - className
+    - classList
+    - style
+
+--------------------------------
+5 CREAR ELEMENTOS HTML EN EL DOM
+--------------------------------
+    - createElement()
+    - createDocumentFragment()
+    - cloneNode()
+
+-----------------------------------
+6 INSERTAR ELEMENTOS HTML EN EL DOM
+-----------------------------------
+    - API DE ELEMENTOS
+        - before()
+        - after()
+        - prepend()
+        - append()
+        - replaceChildren()
+        - replaceWith()
+        - remove()
+    - API DE INSERCION ADYACENTE
+        - insertAdjacentElement("beforebegin", div)
+        - insertAdjacentElement("afterbegin", div)
+        - insertAdjacentElement("beforeend", div)
+        - insertAdjacentElement("afterend", div)
+
+        - insertAdjacentHTML("beforebegin", `<p>Texto</p>`)
+        - insertAdjacentHTML("afterbegin", `<p>Texto</p>`)
+        - insertAdjacentHTML("beforeend", `<p>Texto</p>`)
+        - insertAdjacentHTML("afterend", `<p>Texto</p>`)
+
+---------
+7 EVENTOS
+---------
+    - Que es un evento
+    - Primer forma de agregar un evento
+    - Segunda forma de agregar un evento
+    - Tercera forma, la recomendada, de agregar un evento
+
+----------
+8 PRACTICA
+----------
+    - Ejercicio 1 Barra de navegación responsive con el DOM
+    [Accede al repositorio aquí](https://github.com/Ledyba-Dev/NAVBAR-MOBILE)
+
+    - Ejercicio 2 CRUD con el DOM(Lista de tareas) con el localStorage
+    [Accede al repositorio aquí](https://github.com/Ledyba-Dev/CURSO-DOM-JAVASCRIPT)
+
+

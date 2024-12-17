@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURSO DE DOM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="body">
+    <!-- <form>
+        <div>
+            <label for="fname">Nombre: </label>
+            <input type="text" id="fname">
+        </div>
+        <div>
+            <label for="lname">Apellido: </label>
+            <input type="text" id="lname">
+        </div>
+        <div>
+            <input type="submit" id="submit">
+        </div>
+    </form>
+    <h2 id="nombreCompleto"></h2> -->
+    <div id="parent">
+        PARENT
+        <div id="child">
+            CHILD
+        </div>
+    </div>
+    <style>
+        #parent {
+            padding: 30px;
+            background-color: lightblue;
+            border: 2px solid blue;
+            text-align: center;
+        }
+        #child {
+            pad: 20px;
+            background-color: lightcoral;
+            border: 2px solid red;
+            text-align: center;
+            margin: auto;
+        }
+
+        #parent:hover {
+            background-color: deepskyblue;
+        }
+        #child:hover {
+            background-color: tomato;
+        }
+    </style>
+    <script src="cursoDom/Eventos_07.js"></script>
+</body>
+
+</html>
